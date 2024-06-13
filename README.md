@@ -1,2 +1,3 @@
 # hangman-game
 Hangman: This is a classic word game where the user has to guess a word letter by letter. The computer will give the user a certain number of incorrect guesses before they lose.
+* This code will generate a random word and then keep asking the user for a guess until they guess the correct word. If the user guesses a letter that is not in the word, it will add it to the list of guessed letters and print "Incorrect guess.". When the user guesses a letter that is in the word, it will remove it from the list of guessed letters and check if the user has guessed all of the letters in the word. If they have, it will print "You win!".
